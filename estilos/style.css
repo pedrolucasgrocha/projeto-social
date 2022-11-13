@@ -33,13 +33,32 @@ section#telefone{
     
 }
 
+section#redes-sociais{
+    text-align: right;
+}
+
+section#redes-sociais img:hover{
+    transform: translate(-3px, -3px);
+    border: 3px solid greenyellow;
+    box-sizing: border-box;
+    transition: transform .2s, border .2s;
+}
+
 iframe#tela{
     position:relative;
-    top: 50.4%;
-    left: 50%;
+    top: 50.3%;
+    left: 50.1%;
     transform: translate(-50%, -50%);
 
-    width: 267px;
+    width: 266px;
     height: 471px;
+    
+}
+
+img.img{
+    border-radius: 50%;
+    width: 50px;
+    margin: 10px;
+    
 }
 
